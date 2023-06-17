@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "77545409-d9d7-4740-a6c4-be00a221f746",
+		"name": "TECHNICAL TASK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18974135"
+	},
+	"item": [
+		{
+			"name": "QR-CODE",
+			"item": [
+				{
+					"name": "QR code and retrieve the encrypted data",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"scannedData\": \"$2b$10$xFWAB1wi3.gk42tSMsCOo./9qHUBdMgYCEVsMdi2GgF1HiOKsvZoS\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/scanQR",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"scanQR"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OCR",
+			"item": [
+				{
+					"name": "Upload File",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/mohin/OneDrive/Pictures/Screenshots/Screenshot (225).png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/upload",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"upload"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "LANGUAGE FILE",
+			"item": [
+				{
+					"name": "Read English",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/english",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"english"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Read Hindi",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/hindi",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"hindi"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FILE-UPLOAD",
+			"item": [
+				{
+					"name": "Upload-File",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "avatar",
+									"type": "file",
+									"src": "/C:/Users/mohin/OneDrive/Pictures/Screenshots/Screenshot (225).png"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/file-upload",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"file-upload"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
