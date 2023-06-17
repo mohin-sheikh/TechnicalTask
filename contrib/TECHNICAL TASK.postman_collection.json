@@ -24,12 +24,14 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/scanQR",
-							"protocol": "http",
+							"raw": "https://technicaltask-production.up.railway.app/scanQR",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"technicaltask-production",
+								"up",
+								"railway",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"scanQR"
 							]
@@ -58,12 +60,14 @@
 							]
 						},
 						"url": {
-							"raw": "http://localhost:3000/upload",
-							"protocol": "http",
+							"raw": "https://technicaltask-production.up.railway.app/upload",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"technicaltask-production",
+								"up",
+								"railway",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"upload"
 							]
@@ -82,12 +86,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/english",
-							"protocol": "http",
+							"raw": "https://technicaltask-production.up.railway.app/english",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"technicaltask-production",
+								"up",
+								"railway",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"english"
 							]
@@ -101,12 +107,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/hindi",
-							"protocol": "http",
+							"raw": "https://technicaltask-production.up.railway.app/hindi",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"technicaltask-production",
+								"up",
+								"railway",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"hindi"
 							]
@@ -135,12 +143,14 @@
 							]
 						},
 						"url": {
-							"raw": "http://localhost:3000/file-upload",
-							"protocol": "http",
+							"raw": "https://technicaltask-production.up.railway.app/file-upload",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"technicaltask-production",
+								"up",
+								"railway",
+								"app"
 							],
-							"port": "3000",
 							"path": [
 								"file-upload"
 							]
