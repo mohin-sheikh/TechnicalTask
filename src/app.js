@@ -40,6 +40,6 @@ app.use(function (err, req, res, next) {
 });
 const port = 3000;
 const host = '0.0.0.0';
-app.listen(port, host() => {
+app.listen(port, host, () => {
   console.log(`Server running on http://localhost:${port}`);
 });
