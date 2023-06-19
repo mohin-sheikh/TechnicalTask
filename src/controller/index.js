@@ -10,7 +10,7 @@ module.exports = {
     generateQRCode: generateQRCodeController.generateQRCode,
     scanQRCode: scanQRCodeController.scanQRCode,
     QRCodeGoogleSearchController: QRCodeGoogleController.generateQR,
-    QRCodeGoogleController: QRCodeGoogleController.generateQRCodeGoogle.apply,
+    QRCodeGoogleController: QRCodeGoogleController.generateQRCodeGoogle,
     uploadFile: uploadFileController.uploadFile,
     englishLanguageFile: englishLanguageFileController.readEnglishFile,
     hindiLanguageFile: hindiLanguageFileController.readHindiFile,
